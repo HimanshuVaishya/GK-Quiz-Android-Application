@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".practice.ScoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="GK Quiz" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_24sdp"
+            android:textSize="@dimen/_38ssp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/score" />
+
+        <TextView
+            android:id="@+id/scored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_38ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_24sdp"
+            android:textSize="@dimen/_38ssp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="OUT OF 10" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/background_conetent_bottom"
+        android:layout_weight="1">
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="@color/primary"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Done" />
+    </FrameLayout>
+</LinearLayout>

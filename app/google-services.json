@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532747990357",
+    "project_id": "dynamic-application-two",
+    "storage_bucket": "dynamic-application-two.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532747990357:android:b200ab922505b689da6bdc",
+        "android_client_info": {
+          "package_name": "com.example.dynamicapplicationtwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532747990357-bqau6lvt2eld7c5vvvfsdsa0sjif73hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAzMo2z1vADtM9rhSOdxJkCqVCCD_t6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532747990357-bqau6lvt2eld7c5vvvfsdsa0sjif73hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

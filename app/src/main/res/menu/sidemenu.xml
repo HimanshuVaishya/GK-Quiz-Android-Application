@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/learn_menu"
+            android:icon="@drawable/ic_study"
+            android:title="Learn" />
+
+        <item
+            android:id="@+id/practice_menu"
+            android:icon="@drawable/ic_test"
+            android:title="Practice" />
+
+        <item
+            android:id="@+id/chat_menu"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+
+    </group>
+
+    <item android:title="Sharing">
+        <menu>
+            <item
+                android:id="@+id/share_menu"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/feedback_menu"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
