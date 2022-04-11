@@ -12,7 +12,7 @@ public class ApiClient {
         if (retrofit == null) {
 
             retrofit = new Retrofit.Builder()
-                    .baseUrl("https://fcm.googleapis.com/fcm/")
+                    .baseUrl("Fcm Api Key")
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .build();
 
