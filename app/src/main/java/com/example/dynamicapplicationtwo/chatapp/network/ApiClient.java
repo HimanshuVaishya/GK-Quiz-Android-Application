@@ -12,7 +12,7 @@ public class ApiClient {
         if (retrofit == null) {
 
             retrofit = new Retrofit.Builder()
-                    .baseUrl("Fcm Api Key")
+                    .baseUrl("Fcm Api Key") //ENter your fcm api key here
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .build();
 
